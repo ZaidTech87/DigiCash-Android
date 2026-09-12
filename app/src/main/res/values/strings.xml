@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DigiCash</string>
+
+    <string name="app_title_digicash">DIGICASH</string>
+    <string name="label_current_balance">Current Balance</string>
+    <string name="placeholder_balance">₹0.00</string>
+    <string name="button_send_money">Send Money</string>
+    <string name="button_receive_money">Receive Money</string>
+    <string name="button_sync_server">Sync with Server</string>
+    <string name="sync_status_idle">Sync status: idle</string>
+    <string name="sync_status_started">Sync status: started</string>
+    <string name="scanner_not_available">Scanning is not available yet</string>
+    <string name="receive_screen_not_available">Receive screen is not available yet</string>
+    <string name="placeholder_pending_count">Pending transactions: 0</string>
+
+    <string name="dialog_title_generate_qr">Generate Payment QR</string>
+    <string name="placeholder_receiver_info">Receiver: -</string>
+    <string name="hint_amount_rupees">Amount (₹)</string>
+    <string name="content_description_payment_qr">Generated payment QR code</string>
+    <string name="instruction_show_qr_to_receiver">Show this QR to the receiver</string>
+    <string name="button_generate_qr">Generate QR</string>
+    <string name="button_close">Close</string>
+    <string name="error_no_receiver">No receiver selected. Scan a receiver QR first.</string>
+    <string name="error_insufficient_balance">Insufficient balance for this amount</string>
+    <string name="error_generation_failed">Failed to generate payment QR. Please try again.</string>
+
+    <string name="scanner_title">Scan Payment QR</string>
+    <string name="scanner_instruction">Scan the sender\'s payment QR to receive funds into your wallet</string>
+    <string name="button_start_scan">Start Scanning</string>
+    <string name="permission_camera_rationale">Camera permission is required to scan payment QR codes.</string>
+    <string name="permission_camera_denied">Camera permission was denied. Enable it in Settings to scan payments.</string>
+    <string name="scan_processing">Verifying payment…</string>
+    <string name="dialog_title_success">Payment Received</string>
+    <string name="dialog_title_failed">Payment Not Accepted</string>
+    <string name="button_ok">OK</string>
+    <string name="button_scan_again">Scan Again</string>
+    <string name="success_message_format">You received %1$s from %2$s</string>
+
+    <string name="error_qr_invalid_generic">This QR code is not a valid DigiCash payment.</string>
+    <string name="error_qr_unsupported_version">This payment QR uses an unsupported app version.</string>
+    <string name="error_qr_incomplete">This payment QR is incomplete or corrupted.</string>
+    <string name="error_qr_invalid_amount">This payment QR contains an invalid amount.</string>
+    <string name="error_qr_invalid_txn_id">This payment QR contains an invalid transaction ID.</string>
+    <string name="error_qr_invalid_timestamp">This payment QR has an invalid timestamp.</string>
+    <string name="error_qr_expired">This payment QR has expired. Ask the sender to generate a new one.</string>
+    <string name="error_qr_invalid_key">This payment QR contains invalid sender key data.</string>
+    <string name="error_not_addressed_to_you">This payment is not addressed to your account.</string>
+    <string name="error_identity_mismatch">Sender identity does not match the signing key. This payment cannot be trusted.</string>
+    <string name="error_signature_invalid">Signature verification failed. This payment cannot be trusted.</string>
+    <string name="error_duplicate_transaction">This payment has already been received.</string>
+    <string name="error_replay_detected">This payment reuses data from a previous transaction and was rejected.</string>
+    <string name="error_unexpected">Something went wrong while processing this payment. Please try again.</string>
+
+    <string name="scanner_title_identity">Scan Receiver QR</string>
+    <string name="scanner_instruction_identity">Ask the receiver to show their DigiCash identity QR, then scan it to send them money</string>
+    <string name="dialog_title_receiver_invalid">Receiver QR Not Accepted</string>
+    <string name="error_receiver_qr_invalid_generic">This QR code is not a valid DigiCash receiver identity.</string>
+    <string name="error_receiver_qr_unsupported_version">This receiver QR uses an unsupported app version.</string>
+    <string name="error_receiver_qr_incomplete">This receiver QR is incomplete or corrupted.</string>
+    <string name="error_receiver_qr_invalid_key">This receiver QR contains invalid public key data.</string>
+
+    <string name="button_my_identity_qr">My Identity QR</string>
+    <string name="dialog_title_my_identity_qr">My Identity QR</string>
+    <string name="label_my_identity">Identity:</string>
+    <string name="text_my_identity_explanation">This is your DigiCash receiver identity. Show this QR to someone who wants to send you money.</string>
+    <string name="content_description_identity_qr">Your DigiCash identity QR code</string>
+    <string name="error_identity_generation_failed">Could not generate your identity QR. Please try again.</string>
+</resources>
