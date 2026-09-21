@@ -55,7 +55,7 @@ https://digicash-backend.onrender.com
 
 Download and install the latest DigiCash Android APK:
 
-**[Download DigiCash APK](./apk/DigiCash.apk)**
+**[Download DigiCash APK](./DigiCash.apk)**
 
 > The APK is provided for demonstration and testing purposes.
 
